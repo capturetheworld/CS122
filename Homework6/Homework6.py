@@ -51,19 +51,105 @@ class Product:
             return None
 
 class VideoGame(Product):
-    id=0 #class variable
+    id = 0
 
     def __init__(self, description, list_price):
-        self.id = self.generate_product_id()
         super().__init__(description, list_price)
 
-
+    @classmethod
     def generate_product_id(cls):
         """
         Update class ID
         """
         cls.id += 1
-        return "VG" + f"{cls.id:06}"
+        # print(cls.id)
+        return f"VG{cls.id:06}"
+
+    class VideoGame(Product):
+        id = 0
+
+        def __init__(self, description, list_price):
+            super().__init__(self,description, list_price)
+
+        @classmethod
+        def generate_product_id(cls):
+            """
+            Update class ID
+            """
+            cls.id += 1
+            # print(cls.id)
+            return f"VG{cls.id:06}"
+
+
+class VideoGame(Product):
+    id = 0
+
+    def __init__(self, description, list_price):
+        super().__init__(description, list_price)
+
+    @classmethod
+    def generate_product_id(cls):
+        """
+        Update class ID
+        """
+        cls.id += 1
+        # print(cls.id)
+        return f"VG{cls.id:06}"
+
+class Book(Product):
+    id = 0
+
+    def __init__(self, description, author, pages, list_price):
+        self.author = author
+        self.pages = pages
+        super().__init__(description, list_price)
+
+    @classmethod
+    def generate_product_id(cls):
+        """
+        Update class ID
+        """
+        cls.id += 1
+        # print(cls.id)
+        return f"BK{cls.id:06}"
+
+    def __eq__(self, other):
+        return self.pages == other.pages
+
+    def __lt__(self, other):
+        return self.pages < other.pages
+
+    def __gt__(self, other):
+        return self.pages > other.pages
+
+    def __le__(self, other):
+        return self.pages <= other.pages
+
+    def __ge__(self, other):
+        return self.pages >= other.pages
+
+class Bundle(Product):
+    bundle_discount = .20
+    id = 0
+
+    def __init__(self, req1,req2, *args):
+        self.description = "some bundle"
+        self.list_price = (1-Bundle.bundle_discount)*(req1.list_price +
+                                               req2.list_price+sum(
+                    arg.list_price for arg in args))
+        super().__init__(self.description, self.list_price)
+
+    @classmethod
+    def generate_product_id(cls):
+        """
+        Update class ID
+        """
+        cls.id += 1
+        # print(cls.id)
+        return f"BL{cls.id:06}"
+
+
+
 
 
 
