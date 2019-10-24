@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10d7a18e-d895-4d5e-ad9a-be6f56f03450" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Homework5/TestQ2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Homework5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="10d7a18e-d895-4d5e-ad9a-be6f56f03450" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
