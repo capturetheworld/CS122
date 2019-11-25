@@ -1,0 +1,61 @@
+Allan Hancock Community College: CS 111 Fundamentals of Programming I AND CS 112 Fundamentals of Programming 2
+American River College: CISP 401 Object Oriented Programming with Java OR CISC 310 Introduction to Computer Information Science AND CISP 400 Object Oriented Programming with C++
+Antelope Valley College: CIS 111 Programming and Algorithms AND CIS 113 Data Structures
+Berkeley City College: CIS 25 Object Oriented Programming Using C++ OR CIS 36A Java Programming Language I
+Butte College: CSCI 4 Introduction to Programming Concepts and Methodologies AND CSCI 20 Programs and Algorithms I
+Cabrillo College: CS 19 C++ Programming OR CS 20J Java Programming
+Canada College: CIS 284 Introduction to Object Oriented Programming - Java AND CIS 286 Introduction to Data Structures - Java (completion of CIS 284 and 286 meet CS 46A and 46B)
+Cerritos College: CIS 183 Java Programming
+Chabot College: CSCI 15 Object-Oriented Programming Methods OR CSCI 19A Object-Oriented Programming Methods in JAVA
+City College of San Francisco: CS 110B Programming Fundamentals: C++ OR CS 111B Programming Fundamentals: Java
+Clovis Community College: CSCI 40 Programming Concepts and Methodology I
+College of Alameda: CIS 25 Object-Oriented Programming Using C++
+College of San Mateo: CIS 255 (CS1) Programming Methods: JAVA OR CIS 278 (CS1) Programming Methods I: C++
+College of the Redwoods: CIS 12 Programming Fundamentals
+Columbia College: CCTPG 22 Programming Concepts and Methodology I
+Contra Costa College: COMP 251 Fundamentals of Computer Science C++
+Cosumnes River College: CISP 400 Object Oriented Programming with C++ OR CISP 401 Object Oriented Programming with JAVA OR CISP 360 Introduction to Structured Programming
+Crafton Hills College: CSCI 110 Introduction to Computer Science I (C++)
+CSU, Channel Islands: COMP 150 Object Oriented Programming
+CSU, Pomona: CS 140 Introduction to Computer Science AND CS 141 Introduction to Programming and Problem Solving
+CSU, San Bernardino: CSE 201 Computer Science I
+Cuesta College: CIS 231 Fundamentals of Computer Science 1
+Cuyamaca College: CS 182 Introduction to JAVA Programming
+DeAnza College: CIS 35A Java Programming OR CIS 22A Beginning Programming Methodologies in C++ AND CIS 22B Intermediate Programming Methodologies in C++ OR CIS 22A Beginning Programming Methodologies in C++ AND CIS 22BH Intermediate Programming Methodologies in C++ - HONORS OR CIS 36A Introduction to Computer Programming Using Java AND CIS 36B Intermediate Problem Solving in Java CIS 35A or (CIS 22A & 22B) or (CIS 22A & 22BH) or (CIS 36A & 36B)
+Diablo Valley College: ComSc 255 Programming with Java OR ComSc 110 Introduction to Programming AND ComSc 165 Advanced Programming with C and C++
+Evergreen Valley College: ComSc 75 Computer Science I: Introduction to Program Structures OR CIT 44 Java Programming
+Folsom Lake College: CISP 400 Object Oriented Programming with C++ OR CISP 401 Object Oriented Programming with JAVA
+Foothill College: CS 1B Intermediate Software Design in JAVA
+Fresno City College: CIT 63 Beginning Java Programming
+Fullerton College: CSCI 123F Introduction to Programming Concepts in C++
+Gavilan College: CSIS 45 C++ Programming I
+Grossmont College: CSIS 293 Introduction to Java Programming OR CSIS 296 Introduction to C++ Programming
+Hartnell College: CSS 2A Object Oriented Programming
+Humboldt State University: CS 111 Computer Science Foundations 1
+Irvine Valley College: CS 38 Java Programming
+Lake Tahoe Community College: CIS 120A Computer Programming I AND CIS 120B Computer Programming II AND CIS 120C Computer Programming III
+Laney College: CIS 25 Object Oriented Programming Using C++ OR CIS 36A Java Programming Language I
+Las Positas College: CS 2 Computing Fundamentals II
+Long Beach City College: CS 21A Java: Computer Science I
+Los Angeles Mission College: COSCI 407 Programming Logic AND COSCI 440 Programming in C++ AND COSCI 452 Programming in Java
+Merced College: CPSC 6 Programming Concepts and Methodology I
+Mission College: CIS 43 Software Development with Java Programming OR EGR 30 Introduction to Computing for Engineers
+Monterey Peninsula College: CSIS 10A Programming Methods I: JAVA
+Moorpark College: CS M10A Introduction to Computer Programming Using Structured C++ OR CS M10J Introduction to Computer Programming Using Java
+Mount San Antonio College: CSCI 145 Java Language and Object Oriented Programming
+Ohlone College: CS 116 Object-Oriented Programming Using C++
+Pasadena City College: CS 3B Fundamentals of Computer Science II (Java)
+Reedley College: CSCI 40 Programming Concepts and Methodology I
+Sacramento City College: CISP 401 Object Oriented Programming with Java CISP 401 meets CS/SE 46A or CS 49J, not both
+Saddleback College: CS 1B Introduction to Computer Science II
+San Bernardino Valley College: CS 190 Programming in C++
+San Diego State University: CS 107 Introduction to Computer Programming AND CS 108 Intermediate Computer Programming
+San Francisco State University: CSC 210 Introduction to Computer Programming
+San Joaquin Delta College: CSP 26A JAVA Programming OR CSP 31A C++ Programming I
+San Jose City College: CIS 84 Java Programming
+Santa Barbara City College: CS 140 Object-Oriented Programming Using C++
+Santa Rosa Junior College: CS 10 Introduction to Programming Concepts and Methodologies
+Skyline College: COMP 250 Programming Methods I: C++ OR COMP 284 Programming Methods I: JAVA
+Sonoma State University: CS 115 Programming I AND CS 215 Programming II
+West Valley College: CIST 4A1 Computer Programming I (JAVA)
+Yuba College: COMSC 9A C++ Programming
