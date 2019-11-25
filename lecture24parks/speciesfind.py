@@ -45,25 +45,27 @@ def q5(df):
     return len(df[(df['Category'] == 'Bird')
             & (df['Conservation Status'] == 'Species of Concern')])
 
-# def q6(df):
-#     """
-#    Fish species (common name are theatened in yosemite
-#    Must use loc because we are projecting a column
-#    project on common names
-#     """
-#     return df.loc[(df['Conservation Status'] == 'Threatened') &
-#         (df['Category'] == 'Fish') &
-#         (df['Park Name'] == 'Yosemite National Park'), "Common Names"]
+def q6(df):
+    """
+   Fish species (common name are theatened in yosemite
+   Must use loc because we are projecting a column
+   project on common names
+    """
+    return df.loc[(df['Conservation Status'] == 'Threatened') & (
+                df['Category'] == "Fish") &
+                  (df['Park Name'] == "Yosemite National Park"),
+                  "Common Names"]
 
-# def q7(df):
-#     """
-#    Where can we find bears
-#    Must use loc because we are projecting a column
-#    project on common names
-#     """
-#     return df.loc[(df['Common Names'].str.contans(r'\Bear\b',
-#                                                   flags=re.IGNORECASE)) &
-#                   df["Category"] == "Mammal", "Park Name"]
+def q7(df):
+    """
+   Where can we find bears
+   Must use loc because we are projecting a column
+   project on common names
+    """
+    return df.loc[(df['Common Names'].str.contains(r'\bBear\b',
+                                                   flags=re.IGNORECASE)) & (
+            df['Category'] == "Mammal"),
+                  'Park Name']
 
 
 def q8(df):
@@ -84,8 +86,9 @@ def main():
 
     df_species = pd.read_csv('species.csv', index_col=1, usecols=range(13))
     df_parks = pd.read_csv('parks.csv', index_col=1)
-    df_both = pd.merge(df_parks,df_species,on="Parl Name")
+    df_both = pd.merge(df_parks,df_species,on="Park Name")
     df_both.set_index('State',inplace=True)
+    print(df_both.head())
 
     # Question 1
 
@@ -102,7 +105,7 @@ def main():
     # Question 5
     print(q5(df_species))
     # Question 6
-    # print(q6(df_species))
+    print(q6(df_species))
     print(q7(df_species))
 
 
