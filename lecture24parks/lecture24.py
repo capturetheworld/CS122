@@ -77,10 +77,11 @@ def q8(df):
     Sum the acrage and compute min and max of latitude and longitude
     """
     # Splits data frames
-    # for group, dframe in df.groupby("State"):
-    #     print(group,dframe)
+    for group, dframe in df.groupby("State"):
+        print(group,dframe)
 
-    # Take the sum result = df.groupby("State").sum() - sums all columns
+    # Take the sum
+    result = df.groupby("State").sum() #- sums all columns
 
 
     return df.groupby("State").agg({"Acres":np.sum,"Latitude":(np.max,

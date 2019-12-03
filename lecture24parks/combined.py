@@ -35,15 +35,15 @@ def q2(df):
 
     return(endangered.idxmax())
 
-# def q3(df):
-#     """
-#    Multilevel indexing
-#      """
-#     endangered = df.loc[df["Conservation Status"].str.contains(
-#         "Endangered",na=False),
-#                      "Common Names"].groupby("State").count()
-#
-#     return(endangered.idxmax())
+def q3(df):
+    """
+   Multilevel indexing
+     """
+    endangered = df.loc[df["Conservation Status"].str.contains(
+        "Endangered",na=False),
+                     "Common Names"].groupby("State").count()
+
+    return(endangered.idxmax())
 
 
 def main():
