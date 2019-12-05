@@ -43,6 +43,17 @@ def about():
     results = Review.query.all()
     return render_template('about.html', results=results)
 
+@app.route('/more',methods=["POST","GET"])
+def more():
+    results = []
+    grade = ''
+    if request.method == "POST":
+        grade = request.form.get("grade")
+        query = Review.query.filter(Review.grade == grade)  # filter
+        results = query.all()
+    return render_template('more.html', results=results, grade=grade)
+
+
 
 @app.route('/review', methods=["POST", "GET"])
 def review():
