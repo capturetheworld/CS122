@@ -2,7 +2,7 @@
 # Name:        flaskappdb
 # Purpose:     Demonstrate web development with Flask and Alchemy
 #
-# Author:      Rula Khayrallah
+# Author:      Ian SooHoo
 # ----------------------------------------------------------------------
 """
 Module containing a starter web application with database access.

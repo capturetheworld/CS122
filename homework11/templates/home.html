@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Mega Bite</title>
+</head>
+<body>
+    <h1>The Mega Bite</h1>
+    {% if places %}
+    <table>
+        <tr>
+           <th>Explore the newest additions!</th>
+        </tr>
+         {% for place in places %}
+        <tr>
+            <td>{{place.name}} </td>
+            <td>{{place.location}} </td>
+             <td>{{place.category}} </td>
+            <td>  {% if place.price == 1 %} $
+                {% elif place.price == 2 %} $$
+                {% elif place.price == 3 %} $$$
+                {% elif place.price == 4 %} $$$$
+                {% endif %}</td>
+        </tr>
+         {%endfor%}
+    </table>
+    {% endif %}
+
+        <table>
+            <tr><td><a href="/add">Add a restaurant</a></td></tr>
+            <tr><td><a href="/view">Find the perfect bite</a></td></tr>
+        </table>
+    </div>
+
+</body>
+</html>
+

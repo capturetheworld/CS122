@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Mega Bite</title>
+</head>
+<body>
+    <h1>Add a restaurant</h1>
+    <form method="POST">
+        Name:<br>
+        <input type="text" name="name" value="{{name}}"><br>
+        Category:<br>
+        <input type="text" name="category" value="{{category}}"><br>
+        Location:<br>
+        <input type="text" name="location" value="{{location}}"><br>
+        Price: (1 is cheap, 4 is expensive)<br>
+        <input type="text" name="price" value="{{price}}"><br>
+        <input type="submit" value="Submit"><br><br>
+    </form>
+<!--    {% if results %}-->
+<!--    <table>-->
+<!--        <tr>-->
+<!--            <th>Here's what students thought...</th>-->
+<!--            <th>and here's the grade they received:</th>-->
+<!--        </tr>-->
+<!--         {% for result in results %}-->
+<!--        <tr>-->
+<!--            <td>{{result.comment}}-->
+<!--            <td>{{result.grade}} </td>-->
+<!--        </tr>-->
+<!--         {%endfor%}-->
+<!--    </table>-->
+<!--    {%endif%}-->
+    <p><a href="/home">Home</a></p>
+</body>
+</html>
+
